@@ -1,0 +1,140 @@
+body{
+	background-color: #ffffff;
+	font-family: 'Slabo 27px', serif;
+	padding-top: 135px;
+	background-image: url("../images/hdchalk2.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+nav{
+	padding: 50px;
+	margin: 0px;
+	position: fixed;
+	text-align: center;
+	font-family: 'Slabo 27px', serif;
+	float: left;
+	top: 0;
+	background-image: url("../images/chalkboard2.jpg");
+	background-repeat: no-repeat;width: 96%;
+}
+
+pre{
+	font-family: 'Slabo 27px', serif;
+	font-size: 20pt;
+}
+
+
+a{
+	text-decoration: none;
+	font-family: 'Slabo 27px', serif;
+	color: #ffffff;
+	font-size: 24pt;
+	text-align: center;
+	padding: 0px 30px;
+}
+
+nav a:hover{
+	font-size: 30pt;
+}
+
+.heading{
+	width: 96%;
+	text-align: right;
+	font-size: 32pt;
+	float: left;
+	padding-right: 5%;
+	color: #ff515a;
+
+}
+
+.center{
+	text-align: center;
+}
+
+.container{
+	max-width: 1366px;
+	margin: 0px auto;
+	color: #ffffff;
+}
+
+.col100{
+	width: 96%;
+	margin: 5px 1%;
+	padding: 0px;
+	float: left;
+}
+
+.col75{
+	width: 71%;
+	margin: 5px 1%;
+	padding: 10px 1%;
+	float: left;
+}
+
+.col50{
+	width: 46%;
+	margin: 5px 1%;
+	padding: 10px 1%;
+	float: left;
+	font-size: 20pt;
+}
+
+.col25{
+	width: 21%;
+	margin: 5px 1%;
+	padding: 10px 1%;
+	float: left;
+	font-size: 20pt;
+}
+
+.clear{
+	clear: both;
+}
+
+.imgSizer{
+	width: 100%;
+	height: auto;
+	padding: 0px;
+}
+
+@media only screen and (max-width:1365px){
+	.col75{
+		width: 96%;
+	}
+
+	.col50{
+		width: 46%;
+		font-size: 20pt;
+	}
+
+	.col25{
+		width: 96%;
+		text-align: center;
+	}
+
+	a{
+		font-size: 18pt;
+		text-align: right;
+	}
+}
+
+@media only screen and (max-width:767px){
+	.col75{
+		width: 96%;
+	}
+
+	.col50{
+		width: 96%;
+	}
+
+	.col25{
+		width: 96%;
+	}
+
+	a{
+		font-size: 12pt;
+		text-align: right;
+	}
+}
+
