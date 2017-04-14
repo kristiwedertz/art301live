@@ -117,6 +117,10 @@ nav a:hover{
 		font-size: 18pt;
 		text-align: right;
 	}
+	nav a:hover{
+	font-size: 20pt;
+}
+
 }
 
 @media only screen and (max-width:767px){
@@ -136,5 +140,9 @@ nav a:hover{
 		font-size: 12pt;
 		text-align: right;
 	}
+	nav a:hover{
+	font-size: 14pt;
+}
+
 }
 
